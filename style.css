@@ -62,10 +62,10 @@ button:hover{
     margin-left: 12%;
     font-size: 22px;
     cursor: pointer;
-    border-bottom: black;
-    background: blue;
+    border-bottom:3px solid black;
+    background: white;
     border-radius: 5px;
-    color: white;
+    color: black;
 }
 
 
@@ -84,14 +84,14 @@ button:hover{
     .container input{
         position: relative;
         line-height: 60px;
-        width: 100%;
+        width: 80%;
         margin-left: 5px;
         Margin-top: 30px;
     }
     .to-do{
         position: relative;
         line-height: 30px;
-        width: 100%;
+        width: 80%;
         margin-left: 5px;
         font-size: 18px;
     }
