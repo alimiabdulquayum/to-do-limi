@@ -83,21 +83,21 @@ button:hover{
     }
     .container input{
         position: relative;
-        line-height: 55px;
-        width: 60%;
+        line-height: 45px;
+        width: 67%;
         margin-left: 5px;
         Margin-top: 30px;
     }
     .to-do{
         position: relative;
-        line-height: 30px;
-        width: 100%;
+        line-height: 35px;
+        width: 67%;
         margin-left: 5px;
         font-size: 18px;
     }
     button{
     position: relative;
-    height: 55px;
-    width: 50px;
+    height: 45px;
+    width: 460px;
     }
 }
