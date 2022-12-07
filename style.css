@@ -71,7 +71,7 @@ button:hover{
 
 @media screen and (max-width: 750px) {
     .body-container{
-        width: 70%;
+        width: 100%;
         position: relative;
         margin: 0 auto;
         margin-top: 10px;
@@ -83,15 +83,21 @@ button:hover{
     }
     .container input{
         position: relative;
-        line-height: 30px;
-        width: 70%;
+        line-height: 60px;
+        width: 100%;
         margin-left: 5px;
+        Margin-top: 30px;
     }
     .to-do{
         position: relative;
         line-height: 30px;
-        width: 70%;
+        width: 100%;
         margin-left: 5px;
         font-size: 18px;
+    }
+    button{
+    position: relative;
+    height: 60px;
+    width: 55px;
     }
 }
