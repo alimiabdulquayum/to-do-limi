@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%; 
+    background: lightseagreen;
+}
+.body-container{
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.body-container h1{
+    color: white;
+    text-align: center;
+}
+.body-container h1 span{
+    font-size: 40px;
+}
+.container{
+    position: relative;
+    margin-top: 20%;
+}
+.container input{
+    position: relative;
+    line-height: 30px;
+    width: 70%;
+    margin-left: 12%;
+    border-radius: 5px;
+    outline: navy;
+}
+.container input:focus{
+    outline: none;
+    border: blue;
+}
+::placeholder{
+    position: relative;
+    left: 10px;
+}
+button{
+    position: relative;
+    height: 32px;
+    width: 32px;
+    background: blue;
+    border: blue;
+    border-radius: 5px;
+    margin-left: 17px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background: rgb(45, 45, 250);
+    transition: all .5s ease;
+    transform: scale(1.15);
+}
+.to-do{
+    position: relative;
+    line-height: 30px;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: black;
+    background: blue;
+    border-radius: 5px;
+    color: white;
+}
+
+
+@media screen and (max-width: 750px) {
+    .body-container{
+        width: 70%;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .body-container h1{
+        color: white;
+        text-align: center;
+        text-align: 19px;
+    }
+    .container input{
+        position: relative;
+        line-height: 30px;
+        width: 70%;
+        margin-left: 5px;
+    }
+    .to-do{
+        position: relative;
+        line-height: 30px;
+        width: 70%;
+        margin-left: 5px;
+        font-size: 18px;
+    }
+}
