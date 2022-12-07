@@ -85,14 +85,14 @@ button:hover{
         position: relative;
         line-height: 45px;
         width: 67%;
-        margin-left: 15px;
+        margin-left: 18px;
         Margin-top: 30px;
     }
     .to-do{
         position: relative;
         line-height: 30px;
         width: 67%;
-        margin-left: 5px;
+        margin-left: 18px;
         font-size: 18px;
     }
     button{
